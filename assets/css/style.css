@@ -1,0 +1,106 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: 0;
+
+}
+main {
+    color: white;
+}
+
+/*cabecera*/
+header {
+    text-align: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+/*imagen de presentación*/
+.banner {
+    background-image: url('../img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 1200px;
+}
+
+/*información*/
+.information {
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 380px;
+}
+
+.information-text {
+    width: 35%;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 50px;
+    float: left;
+    text-align: left;
+}
+
+.information-image {
+    width: 399px;
+    height: 237px;
+    padding: 50px;
+    float: left;
+}
+
+/*características*/
+.features {
+    background-color: #1E1A13;
+    padding: 20px;
+    text-align: center;
+}
+
+.fa-solid {
+    font-size: 50px;
+}
+
+.feature {
+    width: 15%;
+    height: 60%;
+    padding: 40px;
+    font-size: 24px;
+    font-weight: 200;
+    display: inline-block;
+}
+
+/*galería*/
+.gallery {
+    background-color: black;
+    padding: 100px;
+    text-align: center;
+}
+
+.iguana {
+    width: 316px;
+    height: 202px;
+    padding: 10px;
+}
+
+/*pie de pagina*/
+footer {
+    background-color: #1E1A13;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 10px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: goldenrod;
+}
